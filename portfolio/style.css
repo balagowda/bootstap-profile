@@ -3,6 +3,70 @@ section {
   width: 100%;
 }
 
+#red {
+  color: #f00;
+}
+
+/*----------------------- Home page section ----------------------*/
+
+#home {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container1 {
+  top: 45%;
+  left: 45%;
+  position: absolute;
+  height: 30%;
+  width: 45%;
+  text-align: center;
+  color: white;
+}
+
+.letter-typing {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  color: yellow;
+  width: 100%;
+}
+
+.letter-typing a{
+  text-decoration: none;
+  color: yellow;
+}
+
+/*---------------------- Education section---------------------*/
+#education{
+  /* background-image: url("backgroung2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #090a0b;
+}
+
+.card{
+  width: 45%;
+}
+
+/*---------------------- Skills Section ------------------------*/
+#skills{
+  background-color: #090a0b;
+}
+
+.skill{
+  width: 500px;
+}
+
+/* --------------------- Projects section ---------------------*/
+
+#projects{
+  background-color: #090a0b;
+}
+
+/*----------------------- Contact Page Section ------------------*/
+
 #contact {
   height: 40vh;
   background-color: rgb(24, 31, 31);
@@ -18,7 +82,7 @@ section {
   height: 60%;
 }
 
-.icon{
+.icon {
   display: flex;
   background: #fff;
   height: 45px;
@@ -35,8 +99,8 @@ section {
 }
 
 .icon i {
-  font-size: 50px;
-  color: #777;
+  font-size: 40px;
+  color: #000000;
   transition: transform 0.5s;
 }
 
@@ -51,18 +115,15 @@ section {
 .icon:hover i {
   transform: scale(0.9);
 }
-.icon:hover .fa-facebook {
-  color: #3b5998;
-}
 .icon:hover .fa-twitter {
   color: #00acee;
 }
-.icon:hover .fa-whatsapp {
-  color: #4fce5d;
+.icon:hover .fa-envelope {
+  color: green;
+}
+a:hover .fa-github {
+  color: #000000;
 }
 a:hover .fa-instagram {
-  color: #f14843;
-}
-a:hover .fa-youtube {
   color: #f00;
 }
